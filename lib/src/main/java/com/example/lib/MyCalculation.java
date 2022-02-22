@@ -2,7 +2,7 @@ package com.example.lib;
 
 public class MyCalculation {
 
-    private Double division(String expression) {
+    public Double division(String expression) {
         char[] c = expression.toCharArray();
         double division = 0;
 
@@ -15,7 +15,7 @@ public class MyCalculation {
         return division;
     }
 
-    private Double multiply(String expression) {
+    public Double multiply(String expression) {
         char[] c = expression.toCharArray();
         double multiply = 0;
 
@@ -28,7 +28,7 @@ public class MyCalculation {
         return multiply;
     }
 
-    private Double sub(String expression) {
+    public Double sub(String expression) {
         char[] c = expression.toCharArray();
         double sub = 0;
 
@@ -41,7 +41,7 @@ public class MyCalculation {
         return sub;
     }
 
-    private Double add(String expression) {
+    public Double add(String expression) {
         char[] c = expression.toCharArray();
         double sum = 0;
 
